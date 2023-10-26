@@ -1,29 +1,38 @@
 body{
     background-color: rgba(216, 216, 216, 0.838);
     margin: 40px;
+    padding: ;
 }
 
 #Con{
     background-color: rgb(255, 244, 244);
-    height: 100%;
+    height: 100vh;
+    padding: 20px;
 }
 
 h1,h2,h3{
-    text-align: center;
+    /* text-align: center; */
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #image{
     margin: 10px;
     background-image: url(Sumit_Singh.jpg);
-    height: 220px;
-    background-size: contain;
+    height: 350px;
+    background-size: cover;
     background-repeat: no-repeat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 
 #Sumit{
     border-radius: 100%;
-    height: 250px;
-    width: 200px;
+    height: 350px;
+    width: 350px;
     border: 2px solid rgb(219, 219, 219);
+    box-shadow: 2px rgba(216, 216, 216, 0.838);
+}
+
+#Sumit:hover{
+    box-shadow: 2px rgba(255, 255, 255, 1);
 }
