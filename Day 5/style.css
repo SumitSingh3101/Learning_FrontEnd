@@ -19,7 +19,7 @@ body {
     margin-right: 0.5rem;
 }
 
-.main_content {
+.main-content {
     background-color: #121212;
     flex: 1;
     border-radius: 1rem;
@@ -139,9 +139,6 @@ p{
     color: #fff;
 }
 
-#DownloadIcon{
-    color: #000;
-}
 
 .sticky-nav {
     position: sticky;
@@ -158,4 +155,30 @@ p{
 
 .sticky-nav-icons img{
     margin-left: 0.75rem;
+}
+
+.sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky-nav-options button {
+    margin-right: 1rem;
+}
+
+.nav-item{
+    margin-right: 1rem;
+}
+
+.dark-badge{
+    background-color: #000;
+    color: #fff;
+    
+}
+
+@media (max-width: 1000px) {
+    .hide{
+        display: none;
+    }
 }
