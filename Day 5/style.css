@@ -234,6 +234,7 @@ p{
     align-items: center;
     background-color: #000;
     z-index: 10;
+    height: 4.5rem;
 }
 
 .album{
@@ -350,8 +351,8 @@ span{
 
 /* .like:checked{
     color:#1eea69;
-    background-color: #1ddd63; */
-}
+    background-color: #1ddd63;
+} */
 
 .heart{
     margin-left: 0.8rem;
