@@ -268,6 +268,7 @@ p{
 
 span{
     color: #fff;
+    font-size: 0.6875rem;
 }
 
 .player-controls{
@@ -296,4 +297,62 @@ span{
     background-color: #1bd760;
     border-radius: 50%;
     margin-top: -6px;
+}
+
+.album{
+    padding: 0.5rem;
+    display: inline;
+}
+
+.album-cover{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 5px;
+}
+
+.album-container{
+    display: inline-flex;
+    height: 100%;
+}
+
+#song-name{
+    font-weight: 500;
+    font-size: 0.875rem;
+    display: block;
+}
+
+#producer{
+    font-size: 0.68rem;
+    opacity: 0.7;
+}
+#producer:hover{
+    opacity: 1;
+}
+
+.music-details{
+    display: block;
+    padding: 0.7rem;
+    padding-top: 1.25rem;
+    line-height: 1rem;
+    width: 60%;
+}
+
+.like{
+    margin-top: 1.75rem;
+    height: 1rem;
+    width: 0.8rem;
+    opacity: 0.7;
+}
+
+.like:hover{
+    opacity: 1;
+}
+
+/* .like:checked{
+    color:#1eea69;
+    background-color: #1ddd63; */
+}
+
+.heart{
+    margin-left: 0.8rem;
 }
