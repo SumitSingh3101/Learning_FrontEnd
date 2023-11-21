@@ -1,2 +1,6 @@
 console.log("Hello!")
-console.log("I spent the money ${50+40+160} on food")
+
+let pencilPrice = 10;
+let erasorPrice = 5;
+
+console.log("The total price is :${pencilPrice + erasorPrice} Rupees.");
