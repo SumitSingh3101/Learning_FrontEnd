@@ -9,9 +9,9 @@ function findLargestNumber(num1, num2, num3) {
     }
 }
 
-const num1 = 15;
-const num2 = 8;
-const num3 = 21;
+const num1 = 35;
+const num2 = 81;
+const num3 = 11;
 
 const largestNumber = findLargestNumber(num1, num2, num3);
 console.log(`The largest number is: ${largestNumber}`);
