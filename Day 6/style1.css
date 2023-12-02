@@ -17,3 +17,11 @@ img{
     height: 7rem;
     width: 5rem;
 }
+
+.options{
+    display: inline-block;
+}
+
+.navigations{
+    display: inline-block;
+}
