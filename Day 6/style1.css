@@ -26,3 +26,7 @@ img{
 .navigations{
     display: inline-block;
 }
+
+i{
+    color: aliceblue;
+}
