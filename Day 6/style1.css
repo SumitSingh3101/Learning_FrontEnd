@@ -21,6 +21,7 @@ img{
 .options{
     display: inline;
     margin-left: 3rem;
+    font-size: 2rem;
 }
 
 .navigations{
@@ -34,6 +35,6 @@ i{
 
 .nav{
     top margin: 3rem;
-    
+
 }
 
