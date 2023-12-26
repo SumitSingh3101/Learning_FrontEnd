@@ -35,3 +35,4 @@ function addTask() {
   // Clear the input value
   input.value = "";
 }
+
