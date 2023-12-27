@@ -26,5 +26,8 @@ console.log(obj.1)//here 1 is not getting converted to string//
 student.city = "Kota"
 
 student.sex = "Male"
+delete student.sex
 
 console.log(student)
+
+//
