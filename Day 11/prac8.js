@@ -5,3 +5,8 @@
         let diff = end - start;
         return Math.floor(Math.random() * diff) + start;
     }
+    
+
+    // def generateRandom(start, end);
+    //     diff = end - start;
+    //     return M
