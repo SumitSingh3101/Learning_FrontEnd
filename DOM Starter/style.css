@@ -1,12 +1,25 @@
 body {
     text-align: center;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
+    margin: 0px;
 }
 
-div{
+#color{
     height: 100px;
     width: 500px;
     border: 10px solid black;
-    margin: auto;
+    margin: 5rem auto;
+}
+
+.nav{
+    display: flex;
+    background-color: rgb(194, 131, 219);
+    padding: 1rem;
+}
+
+i{
+    margin-left: 2rem;
+    height: 4rem;
+    width: 4rem;
 }
